@@ -17,10 +17,6 @@ curl -sS https://starship.rs/install.sh | sh -s -- -y && echo 'eval "$(starship 
 echo -e "\n"
 echo "Done installing Starship"
 
-echo -e "\nDone Updating Linux Debian and Updating RustUp Stable version\n"
-read -p "Press enter to continue..."
-echo -e "\n"
-
 export CARGO_TARGET_DIR=/tmp/cargo-installtraodP
 
 rustup update stable
@@ -46,7 +42,7 @@ echo -e "\n"
 
 rustup component list
 
-echo -e "\nChecking Rustup Components\n"
+echo -e "\nDone Checking Rustup Component List\n"
 read -p "Press enter to continue..."
 echo -e "\n"
 
